@@ -1,0 +1,20 @@
+[build-system]
+requires = ["setuptools>=68.0.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "game-metr-analyzer"
+version = "2025.12.21162154"
+description = "A new package would help users analyze and interpret game narratives or story structures, specifically focusing on the METR (Mechanics, Esthetics, Technology, and Rhetoric) plot framework used in game"
+readme = "README.md"
+authors = [{ name = "game-metr-analyzer", email = "hi@eugene.plus" }]
+requires-python = ">=3.9"
+dependencies = [
+  "langchain-llm7>=0.0.0",
+  "llmatch-messages>=0.0.0",
+  "langchain-core>=0.3.0",
+]
+license = { text = "MIT" }
+
+[project.urls]
+Homepage = "https://github.com/chigwell/game-metr-analyzer"
